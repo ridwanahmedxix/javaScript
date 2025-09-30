@@ -1,4 +1,4 @@
 
-let price1 = 20 ;
-let result = price1 + 30 ;
-console.log(result);
+let price1 = 13 ;
+let price2 = 5 ;
+const result = price1 % price2 ;
