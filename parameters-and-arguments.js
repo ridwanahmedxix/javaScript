@@ -1,6 +1,6 @@
-function addNumber (num1 , num2) {
-  let total = num1 + num2 ;
-  return total ;
+function add( number1 , number2 , number3  ) {
+  let result = number1 + number2 + number3 ;
+  return result ;
 }
- const result = addNumber( 100 , 200) ;
- console.log(result);
+const total = add( 10 , 20, 30) ;
+console.log(total);
