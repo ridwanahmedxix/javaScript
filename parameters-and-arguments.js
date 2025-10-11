@@ -1,6 +1,10 @@
-function add( number1 , number2 , number3  ) {
-  let result = number1 + number2 + number3 ;
-  return result ;
+
+function myFunc (money) {
+   let eggPrice = 15 ;
+  let quantity =  money / eggPrice ;
+  return  (
+     quantity 
+  ) ;
 }
-const total = add( 10 , 20, 30) ;
-console.log(total);
+const result = myFunc(100) ;
+console.log(result);
