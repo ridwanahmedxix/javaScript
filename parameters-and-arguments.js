@@ -1,12 +1,6 @@
 
-const products =  {
-     names : 'Laptop',
-     price : 90000 ,
-     color : 'White'
-} ;
-
-function addToProducts (anyObjects) {
-       console.log( `Products name is ${anyObjects.names} and price is ${anyObjects.price} and color is ${anyObjects.color} ` );
+const ary = [ 100, 200, 300, 400, 500] ;
+function products (anyArrays) {
+ console.log(` Arry number found ${anyArrays[2]}`);
 }
-
-addToProducts (products) ;
+products(ary)
