@@ -1,10 +1,12 @@
 
-function myFunc (money) {
-   let eggPrice = 15 ;
-  let quantity =  money / eggPrice ;
-  return  (
-     quantity 
-  ) ;
+const products =  {
+     names : 'Laptop',
+     price : 90000 ,
+     color : 'White'
+} ;
+
+function addToProducts (anyObjects) {
+       console.log( `Products name is ${anyObjects.names} and price is ${anyObjects.price} and color is ${anyObjects.color} ` );
 }
-const result = myFunc(100) ;
-console.log(result);
+
+addToProducts (products) ;
