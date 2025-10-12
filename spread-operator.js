@@ -1,6 +1,6 @@
 
-let arr1 = [10 , 20 , 30] ;
-
-let arr2 = [...arr1 , 40 , 50 , 60] ;
-
- console.log(arr2 );
+let arr1 = [1 , 2 , 3 , 4] ;
+function sum (num1 , num2 , num3 , num4) {
+    return num1 + num2 + num3 +num4 
+}
+console.log(sum(...arr1));
