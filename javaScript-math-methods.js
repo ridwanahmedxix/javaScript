@@ -1,4 +1,4 @@
 
-let x = 5.10 ;
-let result = Math.ceil(x) ;
+let x = 7.9 ;
+let result = Math.floor(x) ;
 console.log(result);
