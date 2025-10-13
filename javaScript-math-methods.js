@@ -1,4 +1,4 @@
 
-let x = 7.6 ;
-let result = Math.round(x) ;
+let x = 5.10 ;
+let result = Math.ceil(x) ;
 console.log(result);
