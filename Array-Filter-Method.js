@@ -1,5 +1,12 @@
 
-const numbers = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ] ;
+const herosName = [
+    { name : " Ridawn " , age : 18 , profession : " Web Developer"} ,
+    { name : " Shamim " , age : 20 , profession : " s Developer"} ,
+    { name : " Joni " , age : 38 , profession : "  Developer"} ,
+    { name : " roni " , age : 18 , profession : " Web Developer"} ,
+    { name : " sani " , age : 28 , profession : " s Developer"} ,
+    { name : " jami " , age : 50 , profession : " Developer"}
+] ;
 
-const myNumber =  numbers.filter( (num) => num < 5  ) ;
-console.log(myNumber);
+ const singleHero = herosName.filter( (hero) => hero.profession == " Web Developer") ;
+ console.log(singleHero);
