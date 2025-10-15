@@ -1,8 +1,26 @@
 
-const numbers = [ 1 , 2 , 3, 4 ] ;
+const shopingCard = [
+    {
+        items : 'T-shert' , 
+        price : 400 
+    } ,
+    
+    {
+        items : 'Watch' , 
+        price : 1200
+    } ,
+    {
+        items : 'Damble' , 
+        price : 500 
+    } ,
+    {
+        items : 'Pant' , 
+        price : 600 
+    } ,
 
-  const sumResult = numbers.reduce( (prevValue , currentValue) => {
-    return prevValue + currentValue
-}, 0 )
+]
 
-console.log(sumResult);
+ const totalPeice = shopingCard.reduce( (prevValue , items) => {
+    return prevValue + items.price ;
+} ,0 )
+console.log(totalPeice);
