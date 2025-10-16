@@ -1,5 +1,16 @@
 
-const numbers = [ 11 , 15 , 19 , 22 ] ;
+const friendInfo = {
+   id : 42634 ,
+   name : ' Ridwan ' ,
+   age : 18 ,
+   moreInfo : {
+    profession : 'Web Developer' ,
+    fatherName : " Azadul Hoqe"
+   }
+} ;
+const { id , name , age , moreInfo } = friendInfo ;
+console.log(moreInfo);
+console.log(id);
+console.log(name);
+console.log(age);
 
-const [ num1 , num2 , num3 , num4 ] = numbers ;
-console.log(num1,num2,num3);
