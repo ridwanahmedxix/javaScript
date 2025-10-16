@@ -5,5 +5,7 @@ function sumNumbers (number) {
     sum = sum + i ;
     console.log(i , sum);
     }
-}
-sumNumbers(7) ;
+    return sum ;
+  }
+ const result =  sumNumbers(6) ;
+ console.log(result);
