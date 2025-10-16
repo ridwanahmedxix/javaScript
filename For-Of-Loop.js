@@ -1,6 +1,10 @@
 
-const numbers = [ 22 , 34 , 56 , 78 , 89 ] ;
-
-for ( let number of numbers ) {
-    console.log(number);
+const products = {
+    name: "PHONE" ,
+    color: "BLACK" ,
+    price: 10000 
+}
+const keys = Object.keys(products) ;
+for( let key of keys ) {
+    console.log(products[key]);
 }
