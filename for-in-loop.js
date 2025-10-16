@@ -1,6 +1,5 @@
 
-const person = { fname: 'Ridwan' , lname: 'Ahmed' , age: 18 } ;
-
-for ( let x in person ) {
-     console.log(person[x]);
+const numbers = [ 22 , 34 , 56 , 78 ] ;
+for( let number in numbers) {
+    console.log(numbers[number]);
 }
