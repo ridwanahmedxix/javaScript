@@ -1,9 +1,5 @@
 
-const jokes = {
-    id : 102 ,
-    title : " Jokes 1 " ,
-    date : 2002 
-}
-const { id , title , date } = jokes ;
-console.log(id);
-console.log(title);
+const numbers = [ 11 , 15 , 19 , 22 ] ;
+
+const [ num1 , num2 , num3 , num4 ] = numbers ;
+console.log(num1,num2,num3);
