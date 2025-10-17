@@ -3,11 +3,8 @@ const user = {
     firstName: 'Ridwan' ,
     lastName: 'Ahmed' ,
     message: function () {
-        console.log(` HELLO ! my device name ${product.productName} `);
+        console.log(this.firstName);
     }
 } ;
-const product = {
-    productName: ' I phone ' ,
-    age: 18
-}
+user.firstName = "Hero "
 user.message() ;
