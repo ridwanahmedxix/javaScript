@@ -1,6 +1,6 @@
 // 1 - Pending . 2 - Resolve . 3 - Reject .
   
-const willMarry = true ;
+const willMarry = false ;
  new Promise( ( resolve , reject) => {
     setTimeout( () => {
         if(willMarry) {
@@ -10,8 +10,8 @@ const willMarry = true ;
             reject(' BerTho/ Sorry ')
         }
     } , 2000 )
- } ).then( () => {
-    console.log(" Promise korlam ");
- } ).catch( () => {
-    console.log("Sorry , Ami Biye korte parbo na ");
+ } ).then( (value) => {
+    console.log(value);
+ } ).catch( (error) => {
+   console.log(error);
  } )
