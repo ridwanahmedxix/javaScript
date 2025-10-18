@@ -1,5 +1,13 @@
- console.log("Number 1");
- setTimeout(function() {
-    console.log("Number 2");
- } ,2000 )
- console.log("Number 3");
+
+const first = ( a , b , callback) => {
+   setTimeout( () => {
+    console.log( a + b );
+    callback () ;
+   } , 2000) ;
+}
+ 
+const second = () => {
+    console.log(" Second - 2");
+}
+
+first( 5 , 6 , second) ;
