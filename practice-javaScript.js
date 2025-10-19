@@ -106,5 +106,23 @@
 // console.log(myFriends);
 
 
-let myFriends = [ 'RIDWAN' , 'SHAMIM' , 'DILIP' , 'SHIMANTO' , 'SHOHEL' ] ;
-console.log(myFriends.length);
+// let myFriends = [ 'RIDWAN' , 'SHAMIM' , 'DILIP' , 'SHIMANTO' , 'SHOHEL' ] ;
+// console.log(myFriends.length);
+
+
+
+// let myFriends = [ 'RIDWAN' , 'SHAMIM' , 'DILIP' , 'SHIMANTO' , 'SHOHEL' ] ;
+// console.log(myFriends[2]);
+
+
+// let myFriends = [ 'RIDWAN' , 'SHAMIM' , 'DILIP' , 'SHIMANTO' , 'SHOHEL' ] ;
+// myFriends [3] = ' NAZMUL' ;
+// console.log(myFriends);
+
+//  let friendsName = [ 'RIDWAN' , 'TAKHA' , 'SHAMIM' ] ;
+//  friendsName.push('DILIP') ;
+//  console.log(friendsName);
+
+friendsName = [ 'RIDWAN' , 'TAKHA' , 'SHAMIM' ] ;
+ friendsName.push(512) ;
+ console.log(friendsName);
