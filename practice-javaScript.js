@@ -1,5 +1,5 @@
 
 var totalMembers = 10 ;
-var voter = 2.7865236 ;
-var sum = Math.ceil(voter)
+var voter = 7.48647865236 ;
+var sum = Math.floor(voter)
 console.log(sum);
