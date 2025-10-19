@@ -81,5 +81,18 @@
 
 
 
+// var myDate = new Date() ;
+// console.log(myDate.toLocaleDateString());
 
+
+
+
+// var myDate = new Date() ;
+// console.log(myDate.toString());
+
+
+
+
+// var myDate = new Date() ;
+// console.log(myDate.getDate());
 
