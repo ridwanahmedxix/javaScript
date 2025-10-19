@@ -22,9 +22,17 @@
 
 
 
-if( 10 > 1 ) {
-   console.log(" Amer mon bose na Gram a  ");
+// if( 10 > 1 ) {
+//    console.log(" Amer mon bose na Gram a  ");
+// }
+// else{
+//     console.log(" Taito ailam shohore  ");
+// }
+
+
+if( 10 > 20) {
+  console.log(" Hoo Bhai ");
 }
 else{
-    console.log(" Taito ailam shohore  ");
+  console.log(" Nahh Bhai ");
 }
