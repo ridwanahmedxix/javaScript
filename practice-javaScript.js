@@ -30,9 +30,23 @@
 // }
 
 
-if( 10 > 20) {
-  console.log(" Hoo Bhai ");
+// if( 10 > 20) {
+//   console.log(" Hoo Bhai ");
+// }
+// else{
+//   console.log(" Nahh Bhai ");
+// }
+
+
+
+var x = 5 ;
+var y = 5 ;
+if( x > y ) {
+    console.log("Boro bhai");
+}
+else if ( x >= y )  {
+   console.log(" Soman Bhai");
 }
 else{
-  console.log(" Nahh Bhai ");
+     console.log(" Soto Bhai");
 }
