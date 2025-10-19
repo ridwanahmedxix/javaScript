@@ -157,5 +157,10 @@
 // console.log(myFriends.slice( 0, 2 ) );
 
 
-let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
-console.log(myFriends.splice( 0 , 2) );
+// let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
+// console.log(myFriends.splice( 0 , 2) );
+
+
+// let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
+// myFriends.splice( 3 , 4 , "Ridwan Ahmed" ) ;
+// console.log(myFriends);
