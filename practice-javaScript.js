@@ -96,3 +96,15 @@
 // var myDate = new Date() ;
 // console.log(myDate.getDate());
 
+//  let myNumber = [ 12 , 23 , 45 , 67, 89 , 90 ] ;
+//  console.log(myNumber);
+
+//  let myNumber = [ 12 , 23 , 45 , 67, 89 , 90 ] ;
+//  console.log( typeof myNumber);
+
+// let myFriends = [ 'RIDWAN' , 'SHAMIM' , 'DILIP' , 'SHIMANTO' , 'SHOHEL' ] ;
+// console.log(myFriends);
+
+
+let myFriends = [ 'RIDWAN' , 'SHAMIM' , 'DILIP' , 'SHIMANTO' , 'SHOHEL' ] ;
+console.log(myFriends.length);
