@@ -123,6 +123,39 @@
 //  friendsName.push('DILIP') ;
 //  console.log(friendsName);
 
-friendsName = [ 'RIDWAN' , 'TAKHA' , 'SHAMIM' ] ;
- friendsName.push(512) ;
- console.log(friendsName);
+// friendsName = [ 'RIDWAN' , 'TAKHA' , 'SHAMIM' ] ;
+//  friendsName.push(512) ;
+//  console.log(friendsName);
+
+
+// friendsName = [ 'RIDWAN' , 'TALHA' , 'SHAMIM' ] ;
+//  friendsName.pop() ;
+//  console.log(friendsName);
+
+
+
+// friendsName = [ 'RIDWAN' , 'TALHA' , 'SHAMIM' ] ;
+// friendsName.push('HABIJABI')
+//  friendsName.pop() ;
+//  console.log(friendsName);
+
+
+// friendsName = [ 'RIDWAN' , 'TALHA' , 'SHAMIM' , 'JOTIN' , 'SHIMANTO' , 'SHOHEL' , 'MUHIN'  ] ;
+// friendsName.shift() ;
+// console.log(friendsName);
+
+
+// friendsName = [ 'RIDWAN' , 'TALHA' , 'SHAMIM' , 'JOTIN' , 'SHIMANTO' , 'SHOHEL' , 'MUHIN'  ] ;
+// friendsName.unshift("RASEL BHAI ") ;
+// console.log(friendsName);
+
+
+// let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
+// console.log(myFriends.slice( 2 , 3 ) );
+
+// let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
+// console.log(myFriends.slice( 0, 2 ) );
+
+
+let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
+console.log(myFriends.splice( 0 , 2) );
