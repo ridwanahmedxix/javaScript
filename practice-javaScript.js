@@ -223,11 +223,71 @@
 // fun( 100 , 50 )
 
 
- function Fun ( num1 , num2 ){
-   let total = num1 + num2 ;
-   console.log(total);
- }
- Fun(500 ,500)
+//  function Fun ( num1 ){
+//    let total = num1 * 100 ;
+//   return total
+//  }
+//  let a = Fun(8) ;
+//  console.log(a);
+
+
+
+//  function Fun ( num1 ){
+//    let total = num1 * 100 ;
+//   return total
+//  }
+//  let a = Fun(8) ;
+//  let b = Fun(8) ;
+//  console.log(a + b);
+
+//  let info = {
+//     name: "Ridwan" ,
+//     age: 18 ,
+//     dateOfBirth: "25/1/2008" ,
+//     home: "Kurigram , Bangladesh"
+//  }
+// console.log(info.name);
+
+
+// function MyInfo (name,age,city,pNumber){
+//   this.name = name  ;
+//   this.age = age ;
+//   this.city = city ;
+//   this.pNumber = pNumber
+// }
+
+// let newOBJ = new MyInfo( "RIDWAN" , 18 , "KURIGRAM" , "019XXXXXXXX" ) ;
+// console.log(newOBJ);
+
+
+
+function MyInfo (name,age,city,pNumber){
+  this.name = name  ;
+  this.age = age ;
+  this.city = city ;
+  this.pNumber = pNumber
+}
+
+let newOBJ = new MyInfo( "RIDWAN" , 18 , "KURIGRAM" , "019XXXXXXXX" ) ;
+console.log(newOBJ);
+
+
+let newObj = new MyInfo( "SHARIN AKTER NUSU" , 18 , "BIANIBAZAR" , "019XXXXXXXX" ) ;
+console.log(newObj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
