@@ -356,6 +356,35 @@
 
 
 
+// let ExFun = function CallBack(){
+//     console.log(" My New Message ");
+// }
+// ExFun() ;
+ 
+
+
+
+
+// let ExFun = function CallBack(message1 , message2){
+//     console.log(message1, message2);
+// }
+// ExFun( "My Name Is" , "Ridwan Ahmed" ) ;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
