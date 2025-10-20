@@ -164,3 +164,41 @@
 // let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
 // myFriends.splice( 3 , 4 , "Ridwan Ahmed" ) ;
 // console.log(myFriends);
+
+
+// let myFriends = [ 'AMINA' , 'TONU' , 'MITHILA' , 'RUPA' , 'NADIA' ] ;
+// myFriends.splice( 2 , 4 , "Ridwan Ahmed"  , ' NuSu') ;
+// console.log(myFriends);
+
+
+// for( let i = 0 ; i <= 10 ; i++){
+//     console.log(" I LOVE YOU ");
+// }
+
+
+// for( let i = 0 ; i <= 10 ; i++){
+//     console.log(i);
+// }
+
+// let numbers = [0,1,2,3,4,5,6,7,8,9] ;
+// for( let i = 0 ; i <= numbers.length ; i++ ) {
+//     console.log(i);
+// }
+
+// let members = [ 1,2,,3,4,5,6,7,8,9 ] ;
+// for( let i = 0 ; i <= members.length ; i++) {
+//     console.log(" I LOVE YOU ");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
