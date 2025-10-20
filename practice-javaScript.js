@@ -307,6 +307,61 @@
 // console.log(MyCondition);
 
 
+// let num = 50;
+// let MyCondition = (num < 10) ? " Ami boro hoite parlam na " : " Hum ami tumer boro" ;
+// console.log(MyCondition);
+
+
+// for( let i = 0 ; i <= 10 ; i++){
+//   if( i == 5){
+//     console.log(" Break Now");
+//     break ;
+//   }
+
+//     console.log(i);
+// }
+
+
+
+// for( let i = 0 ; i <= 10 ; i++){
+//   if( i == 5){
+//     console.log(" Break Now");
+//     continue ;
+//   }
+
+//     console.log(i);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
