@@ -261,23 +261,45 @@
 
 
 
+// function MyInfo (name,age,city,pNumber){
+//   this.name = name  ;
+//   this.age = age ;
+//   this.city = city ;
+//   this.pNumber = pNumber
+// }
+
+// let newOBJ = new MyInfo( "RIDWAN" , 18 , "KURIGRAM" , "019XXXXXXXX" ) ;
+// console.log(newOBJ);
+
+
+// let newObj = new MyInfo( "SHARIN AKTER NUSU" , 18 , "BIANIBAZAR" , "019XXXXXXXX" ) ;
+// console.log(newObj);
+
+
 function MyInfo (name,age,city,pNumber){
   this.name = name  ;
   this.age = age ;
   this.city = city ;
-  this.pNumber = pNumber
+  this.pNumber = pNumber ;
+  this.showMe = function() {
+    console.log(this.name);
+    console.log(this.age);
+    console.log(this.city);
+    console.log(this.pNumber);
+  }
 }
 
-let newOBJ = new MyInfo( "RIDWAN" , 18 , "KURIGRAM" , "019XXXXXXXX" ) ;
-console.log(newOBJ);
+let newOBJ1 = new MyInfo( "RIDWAN" , 18 , "KURIGRAM" , "019XXXXXXXX" ) ;
 
+let newOBJ2 = new MyInfo( "RASEL" , 18 , "SYLHET" , "019XXXXXXXX" ) ;
 
-let newObj = new MyInfo( "SHARIN AKTER NUSU" , 18 , "BIANIBAZAR" , "019XXXXXXXX" ) ;
-console.log(newObj);
+let newOBJ3 = new MyInfo( "AHMED" , 18 , "LONDON" , "019XXXXXXXX" ) ;
 
-
-
-
+newOBJ1.showMe()
+console.log("---------------------------------");
+newOBJ2.showMe()
+console.log("---------------------------------");
+newOBJ3.showMe()
 
 
 
