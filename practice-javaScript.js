@@ -333,7 +333,20 @@
 // }
 
 
+// function me (){
+//  let fdName = "Ridwan Ahmed" ;
+//  console.log(fdName);
 
+// }
+// me() ;
+
+
+
+// function me (){
+//  let fdName = "Ridwan Ahmed" ;
+// }
+// me() ;
+// console.log(fdName);
 
 
 
