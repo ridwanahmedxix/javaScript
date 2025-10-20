@@ -206,6 +206,38 @@
 //     i++ ;
 // }
 
+// function sum() {  
+// let a = 10 ;
+// let b = 2 ;
+//  console.log(a*b);
+// }
+// sum()
+// sum()
+
+// function fun( num1 , num2 ){
+//     let total = num1 + num2 ;
+//     console.log(total);
+// }
+// fun( 20 , 50 )
+// fun( 50 , 50 )
+// fun( 100 , 50 )
+
+
+ function Fun ( num1 , num2 ){
+   let total = num1 + num2 ;
+   console.log(total);
+ }
+ Fun(500 ,500)
+
+
+
+
+
+
+
+
+
+
 
 
 
