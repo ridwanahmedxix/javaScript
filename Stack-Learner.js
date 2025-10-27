@@ -24,9 +24,9 @@
 // console.log(++n);
 
 
-let n = 5 ;
-let m = (10) + ++n ;
-console.log(m);
+// let n = 5 ;
+// let m = (10) + ++n ;
+// console.log(m);
 
 
 
