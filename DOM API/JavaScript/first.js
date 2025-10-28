@@ -53,8 +53,15 @@
 // console.log(element);
 // console.log(element1);
 
-const div = document.createElement("div");
-div.innerText = "This ia Div Tag" ;
+// const div = document.createElement("div");
+// div.innerText = "This ia Div Tag" ;
 
-const body =  document.getElementById("bodyTag") ;
-body.appendChild(div) ;
+// const body =  document.getElementById("bodyTag") ;
+// const heading = document.createElement("h2") ;
+// h2.innerText = "MY NAME IS RIDWAN " ;
+// const body2 = document.getElementById("bodyTag") ;
+// div.appendChild(heading)
+// body.appendChild(div) ;
+
+
+ 
