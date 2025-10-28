@@ -63,5 +63,13 @@
 // div.appendChild(heading)
 // body.appendChild(div) ;
 
+// const bodyTag = document.getElementById("bodyTag") ;
+//  const div = document.createElement("div") ;
+// div.innerHTML = `
+//     <h1> This is Bangladesh </h1> 
+//     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquam?</p>
 
- 
+
+// ` ;
+
+//  bodyTag.appendChild(div)
