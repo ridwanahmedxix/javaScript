@@ -48,4 +48,10 @@
 
 
 
+// const element1 = document.getElementById("headinh2").style.backgroundColor = "red" ;
+// const element = document.getElementById("headinh2").style.color = "white" ;
+// console.log(element);
+// console.log(element1);
+
+
 
