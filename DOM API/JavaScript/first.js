@@ -53,5 +53,8 @@
 // console.log(element);
 // console.log(element1);
 
+const div = document.createElement("div");
+div.innerText = "This ia Div Tag" ;
 
-
+const body =  document.getElementById("bodyTag") ;
+body.appendChild(div) ;
