@@ -75,11 +75,14 @@
 //  bodyTag.appendChild(div)
 
 
-function something () {
-    document.getElementById('heading2')
-}
+// function anotherFunc () {
+//     document.getElementById('heading2').innerText = 'This is a Heading 2' ;
+// }
 
-
+//  function forDate () {
+//    const forDate = document.getElementById('paraTag') ;
+//    forDate.innerText = Date() ;
+//  }
 
 
 
