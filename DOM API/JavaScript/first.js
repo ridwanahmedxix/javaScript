@@ -75,7 +75,9 @@
 //  bodyTag.appendChild(div)
 
 
-
+function something () {
+    document.getElementById('heading2')
+}
 
 
 
