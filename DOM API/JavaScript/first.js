@@ -99,6 +99,15 @@
 
 
 
+//  document.getElementById('update-btn').addEventListener('click' , function() {
+//     const inputField = document.getElementById('input-field') ;
+//     const result = inputField.value ;
+//     const defaultText = document.getElementById('heading-tag') ;
+//     defaultText.innerText = result ;
+//     inputField.value = '' ;
+//  })
+
+
 
 
 
