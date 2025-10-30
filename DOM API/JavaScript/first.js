@@ -84,12 +84,14 @@
 //    forDate.innerText = Date() ;
 //  }
 
-const makeRed = () => {
-    document.body.style.backgroundColor = 'red' ;
+// const makeRed = () => {
+//     document.body.style.backgroundColor = 'red' ;
+// }
+  
+const makeRedBTN = document.getElementById('make-red')
+makeRedBTN.onclick = function makeRed() {
+    document.body.style.backgroundColor = 'blue'
 }
-
-
-
 
 
 
