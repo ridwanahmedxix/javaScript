@@ -97,33 +97,6 @@
 //     document.body.style.backgroundColor = 'white'
 // }
 
-const Foralert =  document.getElementById('for-alert') ;
- Foralert.addEventListener('click' , function makeAlert () {
-    alert('HELLO ALERT')
- })
- const MakeGreen = document.getElementById('make-green') ;
-  MakeGreen.addEventListener('click' , function() {
-    document.body.style.backgroundColor = 'green'
-  })
-
-const RemoveGreen = document.getElementById('remove-green') ;
-RemoveGreen.addEventListener('click' , function(){
-    document.body.style.backgroundColor = 'white'
-})
-document.getElementById('change-text').addEventListener('click', function() {
-  const changeText = document.getElementById('heading-tag') ;
-  changeText.innerText = (' HELLO MY NAME IS RIDWAN')
-})
-document.getElementById('for-update').addEventListener('click' , function() {
-  const inFild = document.getElementById('input-fild') ;
-  const result = inFild.value ;
-  const paraTag = document.getElementById('para-tag') ;
-  paraTag.innerText = result ;
-  inFild.value = ''
-})
-
-
-
 
 
 
