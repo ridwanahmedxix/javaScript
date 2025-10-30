@@ -119,6 +119,7 @@ document.getElementById('for-update').addEventListener('click' , function() {
   const result = inFild.value ;
   const paraTag = document.getElementById('para-tag') ;
   paraTag.innerText = result ;
+  inFild.value = ''
 })
 
 
