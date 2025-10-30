@@ -110,6 +110,10 @@ const RemoveGreen = document.getElementById('remove-green') ;
 RemoveGreen.addEventListener('click' , function(){
     document.body.style.backgroundColor = 'white'
 })
+document.getElementById('change-text').addEventListener('click', function() {
+  const changeText = document.getElementById('heading-tag') ;
+  changeText.innerText = (' HELLO MY NAME IS RIDWAN')
+})
 
 
 
