@@ -97,7 +97,10 @@
 //     document.body.style.backgroundColor = 'white'
 // }
 
-
+const Foralert =  document.getElementById('for-alert') ;
+ Foralert.addEventListener('click' , function makeAlert () {
+    alert('HELLO ALERT')
+ })
 
 
 
