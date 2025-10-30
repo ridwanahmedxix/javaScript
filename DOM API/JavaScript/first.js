@@ -84,6 +84,9 @@
 //    forDate.innerText = Date() ;
 //  }
 
+const makeRed = () => {
+    document.body.style.backgroundColor = 'red' ;
+}
 
 
 
