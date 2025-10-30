@@ -116,7 +116,9 @@ document.getElementById('change-text').addEventListener('click', function() {
 })
 document.getElementById('for-update').addEventListener('click' , function() {
   const inFild = document.getElementById('input-fild') ;
-  console.log(inFild.value);
+  const result = inFild.value ;
+  const paraTag = document.getElementById('para-tag') ;
+  paraTag.innerText = result ;
 })
 
 
