@@ -114,6 +114,10 @@ document.getElementById('change-text').addEventListener('click', function() {
   const changeText = document.getElementById('heading-tag') ;
   changeText.innerText = (' HELLO MY NAME IS RIDWAN')
 })
+document.getElementById('for-update').addEventListener('click' , function() {
+  const inFild = document.getElementById('input-fild') ;
+  console.log(inFild.value);
+})
 
 
 
