@@ -88,11 +88,14 @@
 //     document.body.style.backgroundColor = 'red' ;
 // }
   
-const makeRedBTN = document.getElementById('make-red')
-makeRedBTN.onclick = function makeRed() {
-    document.body.style.backgroundColor = 'blue'
-}
-
+// const makeRedBTN = document.getElementById('make-red')
+// makeRedBTN.onclick = function makeRed() {
+//     document.body.style.backgroundColor = 'blue'
+// }
+// const makeWhiteBTN = document.getElementById('make-white')
+// makeWhiteBTN.onclick = function makewhite () {
+//     document.body.style.backgroundColor = 'white'
+// }
 
 
 
