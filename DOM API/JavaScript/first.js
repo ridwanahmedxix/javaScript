@@ -101,9 +101,15 @@ const Foralert =  document.getElementById('for-alert') ;
  Foralert.addEventListener('click' , function makeAlert () {
     alert('HELLO ALERT')
  })
+ const MakeGreen = document.getElementById('make-green') ;
+  MakeGreen.addEventListener('click' , function() {
+    document.body.style.backgroundColor = 'green'
+  })
 
-
-
+const RemoveGreen = document.getElementById('remove-green') ;
+RemoveGreen.addEventListener('click' , function(){
+    document.body.style.backgroundColor = 'white'
+})
 
 
 
