@@ -107,7 +107,9 @@
 //     inputField.value = '' ;
 //  })
 
+//  document.querySelector('forClick').addEventListener('click' , function() {
 
+//  })
 
 
 
