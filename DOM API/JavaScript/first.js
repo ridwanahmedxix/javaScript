@@ -120,9 +120,9 @@
 // })
 
 
-document.getElementById('heading-tag').addEventListener('mouseout' , function(e) {
-    console.log(e);
-})
+// document.getElementById('heading-tag').addEventListener('mouseout' , function(e) {
+//     console.log(e);
+// })
 
 
 
