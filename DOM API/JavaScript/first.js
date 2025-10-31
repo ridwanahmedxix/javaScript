@@ -111,7 +111,7 @@
 
 //  })
 
-document.getElementById('heading-tag').addEventListener('dblclick' , function(e) {
+document.getElementById('heading-tag').addEventListener('mouseup' , function(e) {
   console.log(e);
 })
 
