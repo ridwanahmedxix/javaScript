@@ -111,7 +111,9 @@
 
 //  })
 
-
+document.getElementById('heading-tag').addEventListener('dblclick' , function(e) {
+  console.log(e);
+})
 
 
 
