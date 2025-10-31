@@ -152,10 +152,13 @@ document.getElementById('heading-tag').addEventListener('mouseenter' , function(
 //     console.log(e);
 // })
 
- document.getElementById('input-btn').addEventListener('paste' , function (e) {     console.log(e); })
+//  document.getElementById('input-btn').addEventListener('paste' , function (e) {     console.log(e); })
 
 
 
 //  document.getElementById('input-btn').addEventListener('copy' , function (e) {     console.log(e); })
 
-
+document.getElementById('form-Tag').addEventListener('submit', function (e) {
+    e.preventDefault()
+    console.log(e);
+})
