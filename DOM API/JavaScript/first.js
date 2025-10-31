@@ -129,9 +129,9 @@
 //      console.log(makingClick);
 //  })
 
-document.getElementById('heading-tag').addEventListener('mouseenter' , function(e) {
-  console.log(e);
-})
+// document.getElementById('heading-tag').addEventListener('mouseenter' , function(e) {
+//   console.log(e);
+// })
 
 // document.getElementById('input-btn').addEventListener('keydown' , function (e) {
 //     console.log(e);
@@ -162,3 +162,9 @@ document.getElementById('heading-tag').addEventListener('mouseenter' , function(
 //     e.preventDefault()
 //     console.log(e);
 // })
+
+document.getElementById('comment-btn').addEventListener('click' , () => {
+    
+    const commentBox = document.getElementById('text-area') ;
+    console.log(commentBox.value);
+})
