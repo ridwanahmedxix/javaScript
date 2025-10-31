@@ -170,6 +170,8 @@ document.getElementById('comment-btn').addEventListener('click' , () => {
     console.log(commentBoxValue);
     const commentPlace = document.getElementById('comment-place') ;
     const makePtag = document.createElement('h3') ;
+    makePtag.style.backgroundColor = 'blue'
     makePtag.innerText = commentBoxValue ;
     commentPlace.appendChild(makePtag) ;
+    commentBox.valuen =('') ;
 })
