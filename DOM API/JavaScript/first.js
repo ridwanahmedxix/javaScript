@@ -143,10 +143,19 @@ document.getElementById('heading-tag').addEventListener('mouseenter' , function(
 // })
 
 
-document.getElementById('input-btn').addEventListener('blur' , function (e) {
-    console.log(e);
-})
+// document.getElementById('input-btn').addEventListener('blur' , function (e) {
+//     console.log(e);
+// })
 
 
+// document.getElementById('input-btn').addEventListener('cut' , function (e) {
+//     console.log(e);
+// })
+
+ document.getElementById('input-btn').addEventListener('paste' , function (e) {     console.log(e); })
+
+
+
+//  document.getElementById('input-btn').addEventListener('copy' , function (e) {     console.log(e); })
 
 
