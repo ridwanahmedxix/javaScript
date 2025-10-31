@@ -166,5 +166,10 @@
 document.getElementById('comment-btn').addEventListener('click' , () => {
     
     const commentBox = document.getElementById('text-area') ;
-    console.log(commentBox.value);
+    const commentBoxValue = commentBox.value ;
+    console.log(commentBoxValue);
+    const commentPlace = document.getElementById('comment-place') ;
+    const makePtag = document.createElement('h3') ;
+    makePtag.innerText = commentBoxValue ;
+    commentPlace.appendChild(makePtag) ;
 })
