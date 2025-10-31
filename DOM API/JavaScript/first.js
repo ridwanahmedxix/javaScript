@@ -133,7 +133,17 @@ document.getElementById('heading-tag').addEventListener('mouseenter' , function(
   console.log(e);
 })
 
-document.getElementById('input-btn').addEventListener('keydown' , function (e) {
+// document.getElementById('input-btn').addEventListener('keydown' , function (e) {
+//     console.log(e);
+// })
+
+
+// document.getElementById('input-btn').addEventListener('keypress' , function (e) {
+//     console.log(e);
+// })
+
+
+document.getElementById('input-btn').addEventListener('blur' , function (e) {
     console.log(e);
 })
 
