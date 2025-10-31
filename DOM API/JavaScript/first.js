@@ -111,13 +111,18 @@
 
 //  })
 
-document.getElementById('heading-tag').addEventListener('mouseup' , function(e) {
-  console.log(e);
+// document.getElementById('heading-tag').addEventListener('mouseup' , function(e) {
+//   console.log(e);
+// })
+
+// document.getElementById('heading-tag').addEventListener('mouseleave' , function(e) {
+//     console.log(e);
+// })
+
+
+document.getElementById('heading-tag').addEventListener('mouseout' , function(e) {
+    console.log(e);
 })
-
-
-
-
 
 
 
