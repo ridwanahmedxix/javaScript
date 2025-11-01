@@ -163,19 +163,19 @@
 //     console.log(e);
 // })
 
-document.getElementById('comment-btn').addEventListener('click' , () => {
+// document.getElementById('comment-btn').addEventListener('click' , () => {
     
-    const commentBox = document.getElementById('text-area') ;
-    const commentBoxValue = commentBox.value ;
-    console.log(commentBoxValue);
-    const commentPlace = document.getElementById('comment-place') ;
-    const makePtag = document.createElement('h3') ;
-    makePtag.style.backgroundColor = 'blue' ;
-    makePtag.style.padding = '25px' ;
-    makePtag.style.color = 'white' ;
-    makePtag.style.borderRadius = '50px' ;
-    makePtag.style.margin = '10px 800px 10px 0px'
-    makePtag.innerText = commentBoxValue ;
-    commentPlace.appendChild(makePtag) ;
-    commentBox.valuen =('')  ;
-})
+//     const commentBox = document.getElementById('text-area') ;
+//     const commentBoxValue = commentBox.value ;
+//     console.log(commentBoxValue);
+//     const commentPlace = document.getElementById('comment-place') ;
+//     const makePtag = document.createElement('h3') ;
+//     makePtag.style.backgroundColor = 'blue' ;
+//     makePtag.style.padding = '25px' ;
+//     makePtag.style.color = 'white' ;
+//     makePtag.style.borderRadius = '50px' ;
+//     makePtag.style.margin = '10px 800px 10px 0px'
+//     makePtag.innerText = commentBoxValue ;
+//     commentPlace.appendChild(makePtag) ;
+//     commentBox.valuen =('')  ;
+// })
