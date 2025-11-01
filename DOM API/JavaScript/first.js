@@ -179,3 +179,7 @@
 //     commentPlace.appendChild(makePtag) ;
 //     commentBox.valuen =('')  ;
 // })
+
+document.getElementById('comment-btn').addEventListener('click' , () => {
+    const commentPlace = document.getElementById('comment-place')
+} )
