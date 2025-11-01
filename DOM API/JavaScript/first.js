@@ -173,5 +173,5 @@ document.getElementById('comment-btn').addEventListener('click' , () => {
     makePtag.style.backgroundColor = 'blue'
     makePtag.innerText = commentBoxValue ;
     commentPlace.appendChild(makePtag) ;
-    commentBox.valuen =('') ;
+    commentBox.valuen =('')  ;
 })
