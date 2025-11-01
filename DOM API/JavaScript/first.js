@@ -180,6 +180,7 @@
 //     commentBox.valuen =('')  ;
 // })
 
-document.getElementById('comment-btn').addEventListener('click' , () => {
-    const commentPlace = document.getElementById('comment-place')
-} )
+// document.getElementById('comment-btn').addEventListener('click' , () => {
+//     const commentPlace = document.getElementById('comment-place') ;
+//     const commentBoxValue = commentPlace.value
+// } )
