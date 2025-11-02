@@ -212,3 +212,7 @@
 //     return li ;
 // });
 // menuTag.append(...makeList) ;
+
+
+fetch('http://127.0.0.1:5500/DOM%20API/api.txt')
+
