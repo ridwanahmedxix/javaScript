@@ -214,5 +214,10 @@
 // menuTag.append(...makeList) ;
 
 
-fetch('http://127.0.0.1:5500/DOM%20API/api.txt')
-
+function DisplayData () {
+    fetch('http://127.0.0.1:5500/DOM%20API/api.txt')
+    .then(respons => respons.text())
+    .then( data => {
+        document.getElementById('paraTag').innerText = data 
+    })
+}
