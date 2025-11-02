@@ -204,11 +204,11 @@
 // li.textContent = ('First') ;
 // menuTag.insertBefore(li,menuTag.firstChild)
 
-const menuTag = document.getElementById('menu') ;
-const list = [ 'Home' , 'About' , 'Services' , 'Product' ] ;
-const makeList =  list.map( (item) => {
-    const li = document.createElement('li') ;
-    li.textContent = item ;
-    return li ;
-});
-menuTag.append(...makeList) ;
+// const menuTag = document.getElementById('menu') ;
+// const list = [ 'Home' , 'About' , 'Services' , 'Product' ] ;
+// const makeList =  list.map( (item) => {
+//     const li = document.createElement('li') ;
+//     li.textContent = item ;
+//     return li ;
+// });
+// menuTag.append(...makeList) ;
