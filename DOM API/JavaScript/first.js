@@ -184,3 +184,4 @@
 //     const commentPlace = document.getElementById('comment-place') ;
 //     const commentBoxValue = commentPlace.value
 // } )
+
