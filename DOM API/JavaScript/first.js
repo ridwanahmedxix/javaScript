@@ -199,7 +199,16 @@
 // li.textContent = ('First') ;
 // menuTag.insertBefore(li,menuTag.lastChild)
 
+// const menuTag = document.getElementById('menu') ;
+// const li = document.createElement('li') ;
+// li.textContent = ('First') ;
+// menuTag.insertBefore(li,menuTag.firstChild)
+
 const menuTag = document.getElementById('menu') ;
-const li = document.createElement('li') ;
-li.textContent = ('First') ;
-menuTag.insertBefore(li,menuTag.firstChild)
+const list = [ 'Home' , 'About' , 'Services' , 'Product' ] ;
+const makeList =  list.map( (item) => {
+    const li = document.createElement('li') ;
+    li.textContent = item ;
+    return li ;
+});
+menuTag.append(...makeList) ;
