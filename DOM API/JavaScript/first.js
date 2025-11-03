@@ -260,14 +260,13 @@ function DisplayData (data) {
         console.log(data)
         for( const post of data){
             const h2 = document.createElement('h2')
-            h2.innerText = post.title 
-            div.appendChild(h2)
+
         }
          
 }
 
 
-
+ 
 
 
 
