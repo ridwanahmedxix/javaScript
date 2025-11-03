@@ -237,10 +237,11 @@
 function loadApiData() {
  fetch('https://jsonplaceholder.typicode.com/users')
  .then( response => response.json() )
- .then( data => DisplayDatan(data))
+ .then( data => DisplayData (data))
 }
-function DisplayData () {
-
+function DisplayData (data) {
+console.log(data)
+data.map( user => console.log(user.name))
 }
 
 
