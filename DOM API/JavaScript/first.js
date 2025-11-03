@@ -234,19 +234,19 @@
 // }
 
 
-function loadApiData() {
- fetch('https://jsonplaceholder.typicode.com/users')
- .then( response => response.json() )
- .then( data => DisplayData (data))
-}
-function DisplayData (data) {
-    const div = document.getElementById('divTag')
-data.map( user => {
- const p = document.createElement('p') ;
- p.innerText = user.name ;
- div.appendChild(p)
-})
-}
+// function loadApiData() {
+//  fetch('https://jsonplaceholder.typicode.com/users')
+//  .then( response => response.json() )
+//  .then( data => DisplayData (data))
+// }
+// function DisplayData (data) {
+//     const div = document.getElementById('divTag')
+// data.map( user => {
+//  const p = document.createElement('p') ;
+//  p.innerText = user.name ;
+//  div.appendChild(p)
+// })
+// }
 
 
 
