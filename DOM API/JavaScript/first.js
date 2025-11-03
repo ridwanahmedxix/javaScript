@@ -256,10 +256,11 @@ function loadApiData () {
 }
 
 function DisplayData (data) {
-        console.log(data);
-        for(let i = 0 ; i < data.length ; i ++){
-            console.log(data[i]);
+        console.log(data)
+        for( const post of data){
+            console.log(post.body) ;
         }
+         
 }
 
 
