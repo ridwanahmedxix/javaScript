@@ -234,13 +234,14 @@
 // }
 
 
-
+function loadApiData() {
  fetch('https://jsonplaceholder.typicode.com/users')
- .then( response => console.log(response))
+ .then( response => response.json() )
+ .then( data => DisplayDatan(data))
+}
+function DisplayData () {
 
-
-
-
+}
 
 
 
