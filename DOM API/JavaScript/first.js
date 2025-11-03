@@ -240,8 +240,12 @@ function loadApiData() {
  .then( data => DisplayData (data))
 }
 function DisplayData (data) {
-console.log(data)
-data.map( user => console.log(user.name))
+    const div = document.getElementById('divTag')
+data.map( user => {
+ const p = document.createElement('p') ;
+ p.innerText = user.phone ;
+ div.appendChild(p)
+})
 }
 
 
