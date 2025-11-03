@@ -243,7 +243,7 @@ function DisplayData (data) {
     const div = document.getElementById('divTag')
 data.map( user => {
  const p = document.createElement('p') ;
- p.innerText = user.phone ;
+ p.innerText = user.name ;
  div.appendChild(p)
 })
 }
