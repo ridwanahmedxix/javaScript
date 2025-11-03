@@ -223,12 +223,12 @@
 // }
 
 
-const url = 'http://127.0.0.1:5500/DOM%20API/api.txt'
+// const url = 'http://127.0.0.1:5500/DOM%20API/api.txt'
 
-function DisplayData () {
-    fetch(url)
-    .then(res => res.text())
-    .then( data => {
-        document.getElementById('paraTag').innerText = data 
-    })
-}
+// function DisplayData () {
+//     fetch(url)
+//     .then(res => res.text())
+//     .then( data => {
+//         document.getElementById('paraTag').innerText = data 
+//     })
+// }
