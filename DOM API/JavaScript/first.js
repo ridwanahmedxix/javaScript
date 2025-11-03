@@ -256,9 +256,12 @@ function loadApiData () {
 }
 
 function DisplayData (data) {
+    const div = document.getElementById('divTag')
         console.log(data)
         for( const post of data){
-            console.log(post.body) ;
+            const h2 = document.createElement('h2')
+            h2.innerText = post.title 
+            div.appendChild(h2)
         }
          
 }
