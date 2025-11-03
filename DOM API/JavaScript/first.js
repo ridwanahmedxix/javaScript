@@ -232,3 +232,22 @@
 //         document.getElementById('paraTag').innerText = data 
 //     })
 // }
+
+
+
+ fetch('https://jsonplaceholder.typicode.com/users')
+ .then( response => console.log(response))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
