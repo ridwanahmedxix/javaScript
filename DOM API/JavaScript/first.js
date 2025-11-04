@@ -256,11 +256,10 @@ function loadApiData () {
 }
 
 function DisplayData (data) {
-    const div = document.getElementById('divTag')
+
         console.log(data)
         for( const post of data){
-            const h2 = document.createElement('h2')
-
+            
         }
          
 }
