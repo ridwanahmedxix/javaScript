@@ -257,10 +257,10 @@ function loadApiData () {
 
 function DisplayData (data) {
         const container = document.getElementById('div-Container')
-         container.style.backgroundColor = 'red'
-         container.style.padding = '25px'
         for( const post of data){
             const div = document.createElement('div')
+        div.style.backgroundColor = 'red'
+         div.style.padding = '25px'
             div.innerHTML = `
             <h2> title: ${post.title}  </h2> 
             <p> Des: ${post.body}
