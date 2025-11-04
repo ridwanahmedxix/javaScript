@@ -259,6 +259,10 @@ function DisplayData (data) {
         const container = document.getElementById('div-Container')
         for( const post of data){
             const div = document.createElement('div')
+            div.innerHTML = `
+            <h2> title: ${post.title}  </h2> 
+            ` ;
+            container.appendChild(div)
         }
          
 }
