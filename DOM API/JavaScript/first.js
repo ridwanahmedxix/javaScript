@@ -261,6 +261,7 @@ function DisplayData (data) {
             const div = document.createElement('div')
         div.style.backgroundColor = 'red'
         div.style.margin = '30px'
+        div.style.color = 'white'
         div.style.borderRadius = '20px'
          div.style.padding = '25px'
             div.innerHTML = `
