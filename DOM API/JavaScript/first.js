@@ -250,14 +250,14 @@
 
 
 function loadApiData () {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('https://jsonplaceholder.typicode.com/photos')
     .then ( res => res.json())
     .then( data => DisplayData(data))
 }
 
 function DisplayData (data) {
         const container = document.getElementById('div-Container')
-        for( const post of data){
+        for( const photo of data){
             const div = document.createElement('div')
         div.style.backgroundColor = 'red'
         div.style.margin = '30px'
@@ -265,8 +265,8 @@ function DisplayData (data) {
         div.style.borderRadius = '20px'
          div.style.padding = '25px'
             div.innerHTML = `
-            <h2> title: ${post.title}  </h2> 
-            <p> Des: ${post.body}
+            <h2> title: ${photo.title}  </h2> 
+            <img   src="${photo.thumbnaiUrl}" />
             ` ;
             container.appendChild(div)
         }
