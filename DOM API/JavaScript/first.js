@@ -256,10 +256,9 @@ function loadApiData () {
 }
 
 function DisplayData (data) {
-
-        console.log(data)
+        const container = document.getElementById('div-Container')
         for( const post of data){
-            
+            const div = document.createElement('div')
         }
          
 }
