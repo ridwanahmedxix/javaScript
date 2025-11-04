@@ -260,6 +260,8 @@ function DisplayData (data) {
         for( const post of data){
             const div = document.createElement('div')
         div.style.backgroundColor = 'red'
+        div.style.margin = '30px'
+        div.style.borderRadius = '20px'
          div.style.padding = '25px'
             div.innerHTML = `
             <h2> title: ${post.title}  </h2> 
