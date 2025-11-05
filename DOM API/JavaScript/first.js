@@ -273,7 +273,7 @@
          
 // }
 
- function getData () {
+  async function getData () {
     return 'Hello Guy' ;
  }
  console.log(getData());
