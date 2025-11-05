@@ -273,10 +273,10 @@
          
 // }
 
-  async function getData () {
-    return 'Hello Guy' ;
- }
- console.log(getData());
+//   async function getData () {
+//     return 'Hello Guy' ;
+//  }
+//  console.log(getData());
  
 
 
