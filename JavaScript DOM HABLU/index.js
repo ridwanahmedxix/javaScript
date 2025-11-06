@@ -1,2 +1,2 @@
-
-document.getElementById('ID1')
+ 
+let ID1 = document.getElementById('ID1')
