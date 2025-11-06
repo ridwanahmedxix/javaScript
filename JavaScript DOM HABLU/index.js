@@ -3,3 +3,6 @@
 // ID1.innerHTML = 'Hello Bangladesh'
 //  let paraTag1 = document.getElementsByClassName('paraTag1') [0 , 1 , 2] ;
 //  paraTag1.innerHTML = 'hello bro'
+
+let heading = document.getElementsByName('heading2') [0] ;
+heading.innerHTML = 'Hello'
