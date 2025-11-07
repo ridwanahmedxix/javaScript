@@ -21,4 +21,4 @@
 // console.log(pNote.parentNode)
 
  let parentDiv = document.querySelector('.parent-div') ;
- console.log(parentDiv.firstElementChild);
+ console.log(parentDiv.childNodes);
