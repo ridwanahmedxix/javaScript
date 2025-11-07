@@ -26,6 +26,12 @@
 // let Current = document.querySelector('.curent')
 // console.log(Current.previousElementSibling);
 
+// let div = document.createElement('div') ;
+//  div.className = "RidwanID"
+// div.innerHTML = " <h1> Hello This ia a P Tag </h2> " ;
+// document.body.appendChild(div)
+
 let div = document.createElement('div') ;
-div.innerHTML = " <p> Hello This ia a P Tag </p> " ;
+div.id = "heading-h1"
+div.innerHTML = '<h1> Hello bhaiya </h1>' ;
 document.body.appendChild(div)
