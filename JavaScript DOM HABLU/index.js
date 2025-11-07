@@ -20,5 +20,8 @@
 // let pNote = document.querySelector('pNote') ;
 // console.log(pNote.parentNode)
 
- let parentDiv = document.querySelector('.parent-div') ;
- console.log(parentDiv.childNodes);
+//  let parentDiv = document.querySelector('.parent-div') ;
+//  console.log(parentDiv.children);
+
+let Current = document.querySelector('.curent')
+console.log(Current.nextElementSibling);
