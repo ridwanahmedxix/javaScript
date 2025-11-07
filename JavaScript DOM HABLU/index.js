@@ -13,6 +13,6 @@
 
 //  document.querySelector('#heading2')
 
-function Clickme () {
-    document.write(" Hello Ridwan ?")
-}
+//  function ckMe() {
+//     document.getElementById('')
+//  }
