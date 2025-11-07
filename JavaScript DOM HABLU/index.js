@@ -12,3 +12,7 @@
 //    Heading1.innerHTML = "Hello , This is Bangladesh"
 
 //  document.querySelector('#heading2')
+
+function Clickme () {
+    document.write(" Hello Ridwan ?")
+}
