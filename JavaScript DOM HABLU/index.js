@@ -8,5 +8,7 @@
 // heading.innerHTML = 'Hello'
 
 
-  let Heading1 = document.getElementsByTagName('h1') [0] ;
-   Heading1.innerHTML = "Hello , This is Bangladesh"
+//   let Heading1 = document.getElementsByTagName('h1') [0] ;
+//    Heading1.innerHTML = "Hello , This is Bangladesh"
+
+//  document.querySelector('#heading2')
