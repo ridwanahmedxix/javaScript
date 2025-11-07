@@ -23,5 +23,9 @@
 //  let parentDiv = document.querySelector('.parent-div') ;
 //  console.log(parentDiv.children);
 
-let Current = document.querySelector('.curent')
-console.log(Current.nextElementSibling);
+// let Current = document.querySelector('.curent')
+// console.log(Current.previousElementSibling);
+
+let div = document.createElement('div') ;
+div.innerHTML = " <p> Hello This ia a P Tag </p> " ;
+document.body.appendChild(div)
