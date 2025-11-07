@@ -16,3 +16,6 @@
 //  function ckMe() {
 //     document.getElementById('')
 //  }
+
+// let pNote = document.querySelector('pNote') ;
+// console.log(pNote.parentNode)
