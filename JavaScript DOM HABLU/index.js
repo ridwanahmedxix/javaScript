@@ -52,22 +52,57 @@
 
 // document.body.appendChild(ul)
 
-let ul = document.createElement('ul') ;
-ul.id = "menu" ;
+// let ul = document.createElement('ul') ;
+// ul.id = "menu" ;
 
-let li1 = document.createElement('li') ;
-li1.textContent = "Home" ;
-ul.appendChild(li1) ;
+// let li1 = document.createElement('li') ;
+// li1.textContent = "Home" ;
+// ul.appendChild(li1) ;
 
-let li2 = document.createElement('li') ;
-li2.textContent = "About" ;
-ul.appendChild(li2) ;
+// let li2 = document.createElement('li') ;
+// li2.textContent = "About" ;
+// ul.appendChild(li2) ;
 
-let li3 = document.createElement('li') ;
-li3.textContent = "Contact" ;
-ul.appendChild(li3)
+// let li3 = document.createElement('li') ;
+// li3.textContent = "Contact" ;
+// ul.appendChild(li3)
 
-document.body.appendChild(ul)
+// document.body.appendChild(ul)
+
+
+let script = document.createElement('script') ;
+script.src = "ridwan.js" ;
+document.body.appendChild(script)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
