@@ -31,13 +31,13 @@
 // div.innerHTML = " <h1> Hello This ia a P Tag </h2> " ;
 // document.body.appendChild(div)
 
-let div = document.createElement('div') ;
-div.id = "heading-h1"
+// let div = document.createElement('div') ;
+// div.id = "heading-h1"
 
 // let text = document.createTextNode("Inner text into the div")
 // div.appendChild(text) 
 
-let h1 = document.createElement('h1') ;
-div.appendChild(h1)
-h1.textContent = "HELLO , MY HEART IS BROKEN"
-document.body.appendChild(div)
+// let h1 = document.createElement('h1') ;
+// div.appendChild(h1)
+// h1.textContent = "HELLO , MY HEART IS BROKEN"
+// document.body.appendChild(div)
