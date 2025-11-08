@@ -96,18 +96,27 @@
 // document.body.appendChild(div)
 
 
-let menu = document.querySelector('#menu') ;
+// let menu = document.querySelector('#menu') ;
 
-function createMenu(name) {
-  let li = document.createElement('li')
-  li.textContent = name ;
-  return li ;
-}
-menu.appendChild(createMenu("ridwan"))
-menu.appendChild(createMenu("Ahmed"))
-menu.appendChild(createMenu("web developer"))
+// function createMenu(name) {
+//   let li = document.createElement('li')
+//   li.textContent = name ;
+//   return li ;
+// }
+// menu.appendChild(createMenu("ridwan"))
+// menu.appendChild(createMenu("Ahmed"))
+// menu.appendChild(createMenu("web developer"))
 
 
+// let menu = document.querySelector('#menu') ;
+// function CreateMenu (name) {
+//     let li = document.createElement('li') ;
+//     li.textContent = name ;
+//     return li ;
+// }
+// menu.append(CreateMenu("Hello"))
+// menu.append(CreateMenu("Bruh"))
+// menu.append(CreateMenu("What are you doing"))
 
 
 
