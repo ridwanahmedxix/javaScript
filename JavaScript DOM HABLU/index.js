@@ -119,9 +119,11 @@
 // menu.append(CreateMenu("What are you doing"))
 
 
-let note = document.getElementById("note") ;
-console.log(note.textContent);
+// let note = document.getElementById("note") ;
+// console.log(note.textContent);
 
+// let menu = document.querySelector("#menu") ;
+// console.log(menu.innerHTML);
 
 
 
