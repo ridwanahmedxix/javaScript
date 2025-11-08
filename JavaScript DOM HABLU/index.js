@@ -70,16 +70,19 @@
 // document.body.appendChild(ul)
 
 
-let script = document.createElement('script') ;
-script.src = "ridwan.js" ;
-document.body.appendChild(script)
+// let script = document.createElement('script') ;
+// script.src = "ridwan.js" ;
+// document.body.appendChild(script)
+
+// let div = document.createElement('div') ;
+// div.id = "menu" ;
+
+// let p = document.createElement('p') ;
+// p.textContent = "HELLO BANGLADESH . HOW ARE YOU ?" ;
+// div.appendChild(p)
 
 
-
-
-
-
-
+// document.body.appendChild(div)
 
 
 
