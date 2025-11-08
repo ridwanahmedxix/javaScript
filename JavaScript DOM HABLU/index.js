@@ -125,12 +125,13 @@
 // let menu = document.querySelector("#menu") ;
 // console.log(menu.innerHTML);
 
-let menu = document.querySelector('#menu') ;
-let p = document.createElement('p') ;
-p.textContent = "My name is ridwan"
-menu.appendChild(p)
+// let menu = document.querySelector('#menu') ;
+// let p = document.createElement('p') ;
+// p.innerHTML = "My name is ridwan"
+// menu.appendChild(p)
 
-
+// let menu = document.querySelector('#menu') ;
+// menu.innerHTML = " <p> My name is rockstar rakib </p> "
 
 
 
