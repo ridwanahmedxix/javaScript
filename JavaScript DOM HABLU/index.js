@@ -125,8 +125,9 @@
 // let menu = document.querySelector("#menu") ;
 // console.log(menu.innerHTML);
 
-
-
+let menu = document.querySelector('#menu') ;
+let p = document.createElement('p') ;
+menu.appendChild(p)
 
 
 
