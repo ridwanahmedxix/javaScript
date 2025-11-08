@@ -33,5 +33,11 @@
 
 let div = document.createElement('div') ;
 div.id = "heading-h1"
-div.innerHTML = '<h1> Hello bhaiya </h1>' ;
+
+// let text = document.createTextNode("Inner text into the div")
+// div.appendChild(text) 
+
+let h1 = document.createElement('h1') ;
+div.appendChild(h1)
+h1.textContent = "HELLO , MY HEART IS BROKEN"
 document.body.appendChild(div)
