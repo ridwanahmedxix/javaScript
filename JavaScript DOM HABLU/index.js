@@ -119,6 +119,8 @@
 // menu.append(CreateMenu("What are you doing"))
 
 
+let note = document.getElementById("note") ;
+console.log(note.textContent);
 
 
 
