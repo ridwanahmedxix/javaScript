@@ -127,6 +127,7 @@
 
 let menu = document.querySelector('#menu') ;
 let p = document.createElement('p') ;
+p.textContent = "My name is ridwan"
 menu.appendChild(p)
 
 
