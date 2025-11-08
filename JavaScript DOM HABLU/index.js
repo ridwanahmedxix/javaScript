@@ -85,6 +85,46 @@
 // document.body.appendChild(div)
 
 
+// let div = document.createElement('div') ;
+// div.id = "menu" ;
+
+// let p = document.createElement('p') ;
+// p.innerHTML = "HELLO BANGLADESH . HOW ARE YOU ?" ;
+// div.appendChild(p)
+
+
+// document.body.appendChild(div)
+
+
+let menu = document.querySelector('#menu') ;
+
+function createMenu(name) {
+  let li = document.createElement('li')
+  li.textContent = name ;
+  return li ;
+}
+menu.appendChild(createMenu("ridwan"))
+menu.appendChild(createMenu("Ahmed"))
+menu.appendChild(createMenu("web developer"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
