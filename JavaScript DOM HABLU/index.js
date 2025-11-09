@@ -182,7 +182,7 @@ let BomScript = games.map((game) => {
     li.textContent = games ;
     return li ;
 })
-jpp.prepend(...BomScript) ;
+jpp.prepend(...BomScript)  ;
 
 
 
