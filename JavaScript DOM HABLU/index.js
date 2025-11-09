@@ -146,7 +146,14 @@
 
 
 let menu = document.querySelector('#menu') ;
-let name = ['RIDWAN' , 'NUSRAT' , 'TISHA' , 'NAIM' , 'AIDEED'] ;
+let nam = ['RIDWAN' , 'NUSRAT' , 'TISHA' , 'NAIM' , 'AIDEED'] ;
+let fragment = new DocumentFragment() ;
+nam.forEach((name) => {
+  let li = document.createElement("li") ;
+  li.textContent = name ;
+  fragment.appendChild(li)
+})
+menu.appendChild(fragment)
 
 
 
