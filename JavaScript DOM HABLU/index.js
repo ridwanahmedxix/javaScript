@@ -155,13 +155,16 @@
 // })
 // menu.appendChild(fragment)
 
-let menu = document.querySelector("#menu") ;
-let li = document.createElement("li") ;
-li.textContent = "Ridwan" ;
-menu.insertBefore(li , menu.firstElementChild)
+// let menu = document.querySelector("#menu") ;
+// let li = document.createElement("li") ;
+// li.textContent = "Ridwan" ;
+// menu.insertBefore(li , menu.firstElementChild)
 
 
-
+// let menu = document.querySelector("#menu") ;
+// let li = document.createElement("li") ;
+// li.textContent = "Product" ;
+// menu.insertBefore(li , menu.firstElementChild )
 
 
 
