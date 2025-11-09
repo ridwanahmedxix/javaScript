@@ -133,7 +133,8 @@
 // let menu = document.querySelector('#menu') ;
 // menu.innerHTML = " <p> My name is rockstar rakib </p> "
 
-
+let menu = document.querySelector('#menu') ;
+let nam = ['Ridwan' , 'Web' , 'Developer' , 'Front' , 'End'] ;
 
 
 
