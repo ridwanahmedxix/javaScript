@@ -219,6 +219,11 @@
 //     btn.setAttribute("name" , "ridwan")
 // }
 
+// let btn = document.querySelector("#btn") ;
+// if(btn){
+//     let target = btn.getAttribute("target")
+//     console.log(target);
+// }
 
 
 
