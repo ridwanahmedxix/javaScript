@@ -166,8 +166,14 @@
 // li.textContent = "Product" ;
 // menu.insertBefore(li , menu.firstElementChild )
 
-
-
+let app = document.querySelector("#app") ;
+let names = ['This' , 'is' , 'my wife'] ;
+ let DomSceipt = names.map((name) => {
+    let li = document.createElement("li") ;
+    li.textContent = names ;
+    return li ;
+})
+app.append(...DomSceipt)
 
 
 
