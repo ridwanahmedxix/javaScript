@@ -135,6 +135,10 @@
 
 let menu = document.querySelector('#menu') ;
 let nam = ['Ridwan' , 'Web' , 'Developer' , 'Front' , 'End'] ;
+nam.forEach((name) => {
+    let li = document.createElement("li") ;
+    li.textContent = name ;
+})
 
 
 
