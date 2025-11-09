@@ -175,8 +175,14 @@ let names = ['This' , 'is' , 'my wife'] ;
 })
 app.append(...DomSceipt)
 
-
-
+let jpp = document.querySelector("#jpp") ;
+let games = ["VC" , "PUBG" , "C OF C" , "LUDU"] ;
+let BomScript = games.map((game) => {
+    let li = document.createElement("li") ;
+    li.textContent = games ;
+    return li ;
+})
+jpp.prepend(...BomScript) ;
 
 
 
