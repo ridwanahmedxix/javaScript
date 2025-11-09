@@ -200,8 +200,15 @@
 // let menu = document.querySelector("#menu") ;
 // menu.removeChild(menu.lastElementChild)
 
+// let menu = document.querySelector("#menu") ;
+// let cloneNode = menu.cloneNode(true) ;
+// cloneNode.id ="cloneID"
+// document.body.appendChild(cloneNode)
 
-
+// let menu = document.querySelector("#menu") ;
+// let cloneNode = menu.cloneNode(true) ;
+// cloneNode.id = "cloneId" ;
+// document.body.appendChild(cloneNode) ;
 
 
 
