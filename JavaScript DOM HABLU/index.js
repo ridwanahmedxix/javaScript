@@ -133,18 +133,20 @@
 // let menu = document.querySelector('#menu') ;
 // menu.innerHTML = " <p> My name is rockstar rakib </p> "
 
+// let menu = document.querySelector('#menu') ;
+// let nam = ['Ridwan' , 'Web' , 'Developer' , 'Front' , 'End'] ;
+// let fragment = new DocumentFragment()
+// nam.forEach((name) => {
+//     let li = document.createElement("li") ;
+//     li.textContent = name ;
+//     fragment.appendChild(li) ;
+// })
+
+// menu.appendChild(fragment) ;
+
+
 let menu = document.querySelector('#menu') ;
-let nam = ['Ridwan' , 'Web' , 'Developer' , 'Front' , 'End'] ;
-let fragment = new DocumentFragment()
-nam.forEach((name) => {
-    let li = document.createElement("li") ;
-    li.textContent = name ;
-    fragment.appendChild(li) ;
-})
-
-menu.appendChild(fragment) ;
-
-
+let name = ['RIDWAN' , 'NUSRAT' , 'TISHA' , 'NAIM' , 'AIDEED'] ;
 
 
 
