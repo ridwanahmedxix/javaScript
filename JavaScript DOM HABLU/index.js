@@ -185,19 +185,20 @@
 // jpp.prepend(...BomScript)  ;
 
 
-let menu = document.querySelector("#menu") ;
-menu.insertAdjacentHTML("beforebegin" , "<h3> beforebegin </h3>")
-menu.insertAdjacentHTML("afterbegin" , "<h3> afterbegin </h3>")
-menu.insertAdjacentHTML("beforeend" ,  "<h3> beforeend </h3>")
-menu.insertAdjacentHTML("afterend" , "<h3> afterend </h3>")
+// let menu = document.querySelector("#menu") ;
+// menu.insertAdjacentHTML("beforebegin" , "<h3> beforebegin </h3>")
+// menu.insertAdjacentHTML("afterbegin" , "<h3> afterbegin </h3>")
+// menu.insertAdjacentHTML("beforeend" ,  "<h3> beforeend </h3>")
+// menu.insertAdjacentHTML("afterend" , "<h3> afterend </h3>")
+
+// let menu = document.querySelector("#menu") ;
+// let li = document.createElement("li") ;
+// li.textContent = "Home" ;
+// menu.replaceChild(li , menu.lastElementChild)
 
 
-
-
-
-
-
-
+// let menu = document.querySelector("#menu") ;
+// menu.removeChild(menu.lastElementChild)
 
 
 
