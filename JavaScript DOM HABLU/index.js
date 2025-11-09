@@ -166,23 +166,23 @@
 // li.textContent = "Product" ;
 // menu.insertBefore(li , menu.firstElementChild )
 
-let app = document.querySelector("#app") ;
-let names = ['This' , 'is' , 'my wife'] ;
- let DomSceipt = names.map((name) => {
-    let li = document.createElement("li") ;
-    li.textContent = names ;
-    return li ;
-})
-app.append(...DomSceipt)
+// let app = document.querySelector("#app") ;
+// let names = ['This' , 'is' , 'my wife'] ;
+//  let DomSceipt = names.map((name) => {
+//     let li = document.createElement("li") ;
+//     li.textContent = names ;
+//     return li ;
+// })
+// app.append(...DomSceipt)
 
-let jpp = document.querySelector("#jpp") ;
-let games = ["VC" , "PUBG" , "C OF C" , "LUDU"] ;
-let BomScript = games.map((game) => {
-    let li = document.createElement("li") ;
-    li.textContent = games ;
-    return li ;
-})
-jpp.prepend(...BomScript)  ;
+// let jpp = document.querySelector("#jpp") ;
+// let games = ["VC" , "PUBG" , "C OF C" , "LUDU"] ;
+// let BomScript = games.map((game) => {
+//     let li = document.createElement("li") ;
+//     li.textContent = games ;
+//     return li ;
+// })
+// jpp.prepend(...BomScript)  ;
 
 
 
