@@ -240,7 +240,7 @@
 // p.className = "ridwan" ;
 // console.log(p.className);
 
-let menu = document.querySelector("#menu") ;
-menu.classList.add("ridwan" , "ahmed" , "nusrat") ;
-// menu.classList.remove("ahmed")
-menu.classList.replace("ahmed" , "update")
+// let menu = document.querySelector("#menu") ;
+// menu.classList.add("ridwan" , "ahmed" , "nusrat") ;
+// // menu.classList.remove("ahmed")
+// menu.classList.replace("ahmed" , "update")
