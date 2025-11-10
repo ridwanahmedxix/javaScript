@@ -232,9 +232,9 @@
 // menu.style.padding = "30px" ;
 
 
-let menu = document.querySelector("#menu") ;
-let style = getComputedStyle(menu) ;
-console.log(style.fontSize);
+// let menu = document.querySelector("#menu") ;
+// let style = getComputedStyle(menu) ;
+// console.log(style.fontSize);
 
 
 
