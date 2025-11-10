@@ -236,7 +236,8 @@
 // let style = getComputedStyle(menu) ;
 // console.log(style.fontSize);
 
-
+let p = document.querySelector("p") ;
+console.log(p.className);
 
 
 
