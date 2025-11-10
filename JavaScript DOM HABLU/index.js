@@ -242,4 +242,5 @@
 
 let menu = document.querySelector("#menu") ;
 menu.classList.add("ridwan" , "ahmed" , "nusrat") ;
+menu.classList.remove("ahmed")
 
