@@ -236,8 +236,9 @@
 // let style = getComputedStyle(menu) ;
 // console.log(style.fontSize);
 
-let p = document.querySelector("p") ;
-console.log(p.className);
+// let p = document.querySelector("p") ;
+// p.className = "ridwan" ;
+// console.log(p.className);
 
 
 
