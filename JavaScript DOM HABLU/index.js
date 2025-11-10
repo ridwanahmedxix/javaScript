@@ -226,10 +226,10 @@
 // }
 
 
-let menu = document.querySelector("#menu") ;
-menu.style.color = "red" ;
-menu.style.backgroundColor = "blue" ;
-menu.style.padding = "30px" ;
+// let menu = document.querySelector("#menu") ;
+// menu.style.color = "red" ;
+// menu.style.backgroundColor = "blue" ;
+// menu.style.padding = "30px" ;
 
 
 
