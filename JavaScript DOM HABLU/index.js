@@ -254,7 +254,15 @@
 // let width = menu.clientWidth ;
 // let height = menu.clientHeight ;
 // console.log(width,height);
- let menu = document.querySelector("#menu");
-  let width = menu.clientWidth;
-  let height = menu.clientHeight;
-  console.log(width, height);
+
+
+//  let menu = document.querySelector("#menu");
+//   let width = menu.clientWidth;
+//   let height = menu.clientHeight;
+//   console.log(width, height);
+
+
+let btn = document.querySelector("#btn") ;
+btn.addEventListener("click" , function(e) {
+  alert("Hello !")
+})
