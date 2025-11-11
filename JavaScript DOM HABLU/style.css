@@ -3,7 +3,5 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-p::first-letter {
-  font-size: 50px;
+#menu {
 }
