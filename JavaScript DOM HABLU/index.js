@@ -245,3 +245,4 @@
 // // menu.classList.remove("ahmed")
 // menu.classList.replace("ahmed" , "update")
   
+let menu = document.querySelector("#menu")
