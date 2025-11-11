@@ -248,3 +248,4 @@
 let menu = document.querySelector("#menu")
 let width = menu.offsetWidth ;
 let height = menu.offsetHeight ;
+console.log(width,height);
