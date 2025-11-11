@@ -245,7 +245,7 @@
 // // menu.classList.remove("ahmed")
 // menu.classList.replace("ahmed" , "update")
   
-let menu = document.querySelector("#menu")
-let width = menu.clientWidth ;
-let height = menu.clientHeight ;
-console.log(width,height);
+// let menu = document.querySelector("#menu")
+// let width = menu.clientWidth ;
+// let height = menu.clientHeight ;
+// console.log(width,height);
