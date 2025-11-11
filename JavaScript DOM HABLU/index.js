@@ -246,6 +246,6 @@
 // menu.classList.replace("ahmed" , "update")
   
 let menu = document.querySelector("#menu")
-let width = menu.offsetWidth ;
-let height = menu.offsetHeight ;
+let width = menu.clientWidth ;
+let height = menu.clientHeight ;
 console.log(width,height);
