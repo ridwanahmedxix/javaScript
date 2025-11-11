@@ -247,4 +247,4 @@
   
 let menu = document.querySelector("#menu")
 let width = menu.offsetWidth ;
-let height = menu.offsetHeight
+let height = menu.offsetHeight ;
