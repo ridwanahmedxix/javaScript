@@ -266,9 +266,11 @@
 // btn.addEventListener("click" , function(e) {
 //   alert("Hello !")
 // })
-function clicked() {
-  document.body.style.backgroundColor = "red"
-}
-function unClicked() {
-    document.body.style.backgroundColor = "white"
-}
+
+
+// function clicked() {
+//   document.body.style.backgroundColor = "red"
+// }
+// function unClicked() {
+//     document.body.style.backgroundColor = "white"
+// }
