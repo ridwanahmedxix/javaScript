@@ -279,3 +279,4 @@ let btn = document.querySelector("#clicked") ;
 btn.onclick = function() {
     alert("This can not Fuck")
 }
+let tm = document.querySelector("#tm") ;
