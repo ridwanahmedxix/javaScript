@@ -275,11 +275,11 @@
 //     document.body.style.backgroundColor = "white"
 // }
 
-let btn = document.querySelector("#clicked") ;
-btn.onclick = function() {
-    alert("This can not Fuck")
-}
-let tm = document.querySelector("#tm") ;
-tm.addEventListener('click' , function(event){
-    alert("I LOVE YOU")
-})
+// let btn = document.querySelector("#clicked") ;
+// btn.onclick = function() {
+//     alert("This can not Fuck")
+// }
+// let tm = document.querySelector("#tm") ;
+// tm.addEventListener('click' , function(event){
+//     alert("I LOVE YOU")
+// })
