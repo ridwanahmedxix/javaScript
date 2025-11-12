@@ -321,9 +321,11 @@ let track = document.querySelector("#track") ;
 
 // track.addEventListener("mousemove" , mouseEvent)
 
-let message = document.querySelector("#message") ;
+// let message = document.querySelector("#message") ;
 
-function EventName (e) {
-    console.log(e.type);
-}
-message.addEventListener("keypress" , EventName)
+// function EventName (e) {
+//     console.log(e.key);
+// }
+// message.addEventListener("keypress" , EventName)
+// message.addEventListener("keydown" , EventName)
+//  message.addEventListener("keypup" , EventName) 
