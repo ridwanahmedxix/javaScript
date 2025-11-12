@@ -284,6 +284,16 @@
 //     alert("I LOVE YOU")
 // })
 
-document.addEventListener("DOMContentLoaded" , (e) => {
-  alert("DOM is fully loaded")
-})
+// document.addEventListener("DOMContentLoaded" , (e) => {
+//   alert("DOM is fully loaded")
+// })
+
+
+// addEventListener("load" , () => {
+//     alert("HELLO BRO")
+// })
+
+// addEventListener("beforeunload" , (e) => {
+//    e.preventDefault() ;
+//    e.returnValue = '' ;
+// })
