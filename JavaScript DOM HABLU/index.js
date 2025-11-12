@@ -309,9 +309,9 @@ let track = document.querySelector("#track") ;
 //     console.log(e.type);
 // })
 
-function mouseEvent (e) {
-    console.log(e.type);
-}
+// function mouseEvent (e) {
+//     console.log(e.type);
+// }
 
 // track.addEventListener("click" , mouseEvent)
 // track.addEventListener("mouseup" , mouseEvent)
@@ -319,4 +319,4 @@ function mouseEvent (e) {
 // track.addEventListener("dblclick" , mouseEvent)
 // track.addEventListener("mouseover" , mouseEvent)
 
-track.addEventListener("mousemove" , mouseEvent)
+// track.addEventListener("mousemove" , mouseEvent)
