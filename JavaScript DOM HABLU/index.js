@@ -280,3 +280,6 @@ btn.onclick = function() {
     alert("This can not Fuck")
 }
 let tm = document.querySelector("#tm") ;
+tm.addEventListener('click' , function(event){
+    alert("I LOVE YOU")
+})
