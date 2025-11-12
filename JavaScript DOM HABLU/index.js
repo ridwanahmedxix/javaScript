@@ -320,3 +320,10 @@ let track = document.querySelector("#track") ;
 // track.addEventListener("mouseover" , mouseEvent)
 
 // track.addEventListener("mousemove" , mouseEvent)
+
+let message = document.querySelector("#message") ;
+
+function EventName (e) {
+    console.log(e.type);
+}
+message.addEventListener("keypress" , EventName)
