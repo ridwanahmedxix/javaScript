@@ -299,6 +299,20 @@
 // })
 
 let track = document.querySelector("#track") ;
-track.addEventListener("mousedown" , (e) => {
+
+
+// track.addEventListener("mousedown" , (e) => {
+//     console.log(e.type);
+// })
+
+// track.addEventListener("dblclick" , (e) => {
+//     console.log(e.type);
+// })
+
+function mouseEvent (e) {
     console.log(e.type);
-})
+}
+track.addEventListener("click" , mouseEvent)
+track.addEventListener("mouseup" , mouseEvent)
+track.addEventListener("mousedown" , mouseEvent)
+track.addEventListener("dblclick" , mouseEvent)
