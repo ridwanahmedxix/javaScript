@@ -283,3 +283,7 @@
 // tm.addEventListener('click' , function(event){
 //     alert("I LOVE YOU")
 // })
+
+document.addEventListener("DOMContentLoaded" , () => {
+    
+})
