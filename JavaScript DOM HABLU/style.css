@@ -3,3 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+#track {
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  margin: 100px auto;
+}

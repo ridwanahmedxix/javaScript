@@ -297,3 +297,8 @@
 //    e.preventDefault() ;
 //    e.returnValue = '' ;
 // })
+
+let track = document.querySelector("#track") ;
+track.addEventListener("mousedown" , (e) => {
+    console.log(e.type);
+})
