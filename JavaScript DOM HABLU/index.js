@@ -329,3 +329,17 @@ let track = document.querySelector("#track") ;
 // message.addEventListener("keypress" , EventName)
 // message.addEventListener("keydown" , EventName)
 //  message.addEventListener("keypup" , EventName) 
+
+
+// window.onscroll = () => {
+//     alert(" You window is scrolled");
+// }
+
+// window.addEventListener("scroll" , () => {
+//     console.log(alert("You window is scrolled"));
+// })
+
+// let scroller = 0 ;
+// window.addEventListener("scroll" , () => {
+//     if(window.scrollX)
+// })
