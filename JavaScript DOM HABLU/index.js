@@ -274,3 +274,5 @@
 // function unClicked() {
 //     document.body.style.backgroundColor = "white"
 // }
+
+let btn = document.querySelector("#clicked") ;
