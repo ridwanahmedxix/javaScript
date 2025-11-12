@@ -284,6 +284,6 @@
 //     alert("I LOVE YOU")
 // })
 
-document.addEventListener("DOMContentLoaded" , () => {
-    
+document.addEventListener("DOMContentLoaded" , (e) => {
+  alert("DOM is fully loaded")
 })
