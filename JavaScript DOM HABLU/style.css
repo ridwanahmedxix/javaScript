@@ -18,3 +18,16 @@ h2 {
   text-transform: capitalize;
   padding: 20px 0;
 }
+.from-control {
+  padding: 20px;
+  position: relative;
+}
+.from-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+.from-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+}
