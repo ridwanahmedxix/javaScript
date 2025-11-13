@@ -343,3 +343,10 @@ let track = document.querySelector("#track") ;
 // window.addEventListener("scroll" , () => {
 //     if(window.scrollX)
 // })
+
+
+const MyInput = document.querySelector("#MyInput") ;
+MyInput.addEventListener("focus" , (e) => {
+         
+    console.log("focued");
+})
