@@ -298,7 +298,7 @@
 //    e.returnValue = '' ;
 // })
 
-let track = document.querySelector("#track") ;
+// let track = document.querySelector("#track") ;
 
 
 // track.addEventListener("mousedown" , (e) => {
@@ -350,3 +350,25 @@ let track = document.querySelector("#track") ;
          
 //     console.log("focued");
 // })
+
+
+let Username = document.querySelector("#Username") ;
+
+let Email = document.querySelector("#Email") ;
+
+let Password = document.querySelector("#Password") ;
+
+let Password2 = document.querySelector("#Password2") ;
+
+
+function ShowError (input , message){
+    const FromControl = input.parentElemnt
+    FromControl.className = "from-control error"
+    const small =  FromControl.querySelector("small")
+    small.innerText = message ;
+}
+
+function ShowError (input ){
+    const FromControl = input.parentElemnt
+    FromControl.className = "from-control success"
+}
