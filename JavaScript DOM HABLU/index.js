@@ -374,29 +374,29 @@
 // }
 
 
-const group = document.querySelector(".group") ;
-const output = document.querySelector(".output") ;
+// const group = document.querySelector(".group") ;
+// const output = document.querySelector(".output") ;
 
-const sizes = ["XS" , "S" , "M" , "L" , "XL" , "XXL"];
+// const sizes = ["XS" , "S" , "M" , "L" , "XL" , "XXL"];
 
-group.innerHTML = sizes.map((size) => 
-     ` <div>   
+// group.innerHTML = sizes.map((size) => 
+//      ` <div>   
 
-        <input type="radio" id="${size}" value="${size}" name="size">
-        <label for="${size}"></label>
+//         <input type="radio" id="${size}" value="${size}" name="size">
+//         <label for="${size}"></label>
 
-      </div> `
-).join(" ")
+//       </div> `
+// ).join(" ")
 
-const RadioButton = document.querySelectorAll("input")
+// const RadioButton = document.querySelectorAll("input")
 
-for( const radiobtn of RadioButton){
-    radiobtn.addEventListener("change" , ShowOutPut )
-}
+// for( const radiobtn of RadioButton){
+//     radiobtn.addEventListener("change" , ShowOutPut )
+// }
 
-function ShowOutPut(e){
-    console.log(e);
-    if(this.checked){
-        document.querySelector(".output").innerHTML = `You Selected ${this.value} `
-    }
-}
+// function ShowOutPut(e){
+//     console.log(e);
+//     if(this.checked){
+//         document.querySelector(".output").innerHTML = `You Selected ${this.value} `
+//     }
+// }
