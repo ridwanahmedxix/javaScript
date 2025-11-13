@@ -402,6 +402,15 @@
 // }
 
 
-const btn = document.querySelector("#btn") ;
+// const btn = document.querySelector("#btn") ;
 
-let checkBox = document.querySelectorAll("input[name='color']:checked") ;
+// btn.addEventListener("click" , (e) => {
+// let checkBox = document.querySelectorAll("input[name='color']:checked") ;
+
+// let values = [] ;  
+// checkBox.forEach((checkBox) => {
+//     values.push(checkBox.value)
+// })
+
+// console.log(values);
+// })
