@@ -414,3 +414,29 @@
 
 // console.log(values);
 // })
+
+
+// const country = document.querySelector("#country") ;
+// const btn = document.querySelector("#btn") ;
+
+// btn.onclick = (e) => {
+//   e.preventDefault() ;
+//   const OptionsValue = [].filter.call(country.options , (option) => option.selected)
+//   .map((option) => option.text)
+//   console.log(OptionsValue);
+// } 
+
+
+
+
+// const country = document.querySelector("#country");
+// const btn = document.querySelector("#btn");
+
+// btn.onclick = (e) => {
+//   e.preventDefault();
+
+//   const OptionsValue = [].filter.call(country.options, (option) => option.selected)
+//     .map((option) => option.text);
+
+//   console.log(OptionsValue);
+// }
