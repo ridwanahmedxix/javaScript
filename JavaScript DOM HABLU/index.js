@@ -352,23 +352,23 @@
 // })
 
 
-let Username = document.querySelector("#Username") ;
+// let Username = document.querySelector("#Username") ;
 
-let Email = document.querySelector("#Email") ;
+// let Email = document.querySelector("#Email") ;
 
-let Password = document.querySelector("#Password") ;
+// let Password = document.querySelector("#Password") ;
 
-let Password2 = document.querySelector("#Password2") ;
+// let Password2 = document.querySelector("#Password2") ;
 
 
-function ShowError (input , message){
-    const FromControl = input.parentElemnt
-    FromControl.className = "from-control error"
-    const small =  FromControl.querySelector("small")
-    small.innerText = message ;
-}
+// function ShowError (input , message){
+//     const FromControl = input.parentElemnt
+//     FromControl.className = "from-control error"
+//     const small =  FromControl.querySelector("small")
+//     small.innerText = message ;
+// }
 
-function ShowError (input ){
-    const FromControl = input.parentElemnt
-    FromControl.className = "from-control success"
-}
+// function ShowError (input ){
+//     const FromControl = input.parentElemnt
+//     FromControl.className = "from-control success"
+// }
