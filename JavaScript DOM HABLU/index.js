@@ -400,3 +400,8 @@
 //         document.querySelector(".output").innerHTML = `You Selected ${this.value} `
 //     }
 // }
+
+
+const btn = document.querySelector("#btn") ;
+
+let checkBox = document.querySelectorAll("input[name='color']:checked") ;
