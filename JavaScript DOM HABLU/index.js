@@ -345,8 +345,8 @@ let track = document.querySelector("#track") ;
 // })
 
 
-const MyInput = document.querySelector("#MyInput") ;
-MyInput.addEventListener("focus" , (e) => {
+// const MyInput = document.querySelector("#MyInput") ;
+// MyInput.addEventListener("focus" , (e) => {
          
-    console.log("focued");
-})
+//     console.log("focued");
+// })
