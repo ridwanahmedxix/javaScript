@@ -444,9 +444,20 @@
 
 
 const Framework = document.querySelector("#Lang") ;
-
 const btnAdd = document.querySelector("#btnAdd") ;
-
 const list = document.querySelector("#list") ;
-
 const btnRemove = document.querySelector("#btnRemove") ;
+
+btnAdd.onclick = ((e) => {
+e.preventDefault() ;
+
+if(Framework.value == ""){
+    alert("Bro ?! Brain Use")
+}
+
+const option = new Option(Framework.value) ;
+
+list.add(option) ;
+Framework.value = "" ;
+
+})
