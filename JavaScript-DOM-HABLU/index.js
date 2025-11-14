@@ -461,3 +461,21 @@ list.add(option) ;
 Framework.value = "" ;
 
 })
+
+btnRemove.onclick = (e) => {
+e.preventDefault() ;
+
+let selected = [] ;
+for( let i = 0 ; i < list.options.length ; i++){
+    selected[i] = list.options[i].selected ;
+}
+
+let index = list.options.length ;
+
+while(index--){
+  if(selected[index]){
+    list.remove(index)
+  }
+}
+
+}
